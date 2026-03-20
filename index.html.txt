@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>CotzaCris SRL - Transport Persoane Cluj</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('hero.jpg');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 40px;
+    }
+
+    nav {
+      background: #0d6efd;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+      margin: 20px;
+      background: white;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #0d6efd;
+    }
+
+    .cta {
+      background: #0d6efd;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #1e2a38;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      background: #0d6efd;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>CotzaCris SRL</h1>
+  <p>Transport persoane & Transfer Aeroport din Cluj-Napoca în toată România</p>
+
+  <div class="cta">
+    📞 0773 346 676
+  </div>
+</header>
+
+<nav>
+  <a href="#acasa">Acasă</a>
+  <a href="#despre">Despre</a>
+  <a href="#servicii">Servicii</a>
+  <a href="#flota">Flotă</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="acasa">
+  <h2>Transport sigur și confortabil</h2>
+  <p>
+    Oferim transport persoane din Cluj-Napoca către orice destinație din România,
+    rapid, sigur și la prețuri corecte.
+  </p>
+</section>
+
+<section id="despre">
+  <h2>Despre noi</h2>
+  <p>
+    CotzaCris SRL oferă servicii profesionale de transport persoane și transfer aeroport.
+    Punem accent pe punctualitate, confort și siguranță.
+  </p>
+</section>
+
+<section id="servicii">
+  <h2>Serviciile noastre</h2>
+  <ul>
+    <li>✈️ Transfer aeroport</li>
+    <li>🚐 Transport persoane în România</li>
+    <li>👨‍👩‍👧‍👦 Grupuri 4-8 persoane</li>
+    <li>📍 Curse private la cerere</li>
+  </ul>
+</section>
+
+<section id="flota">
+  <h2>Flota noastră</h2>
+
+  <div class="gallery">
+    <img src="masina1.jpg" alt="Transport persoane">
+    <img src="masina2.jpg" alt="Transport persoane">
+    <img src="masina3.jpg" alt="Microbuz">
+  </div>
+
+  <p>
+    Vehicule moderne, curate și confortabile pentru orice tip de deplasare.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <p>📍 Cluj-Napoca</p>
+  <p>📞 0773 346 676</p>
+  <p>📧 cotzacris@gmail.com</p>
+
+  <h3>Cere ofertă</h3>
+  <form>
+    <input type="text" placeholder="Nume" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Mesaj"></textarea>
+    <button type="submit">Trimite</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 CotzaCris SRL</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/40773346676">💬</a>
+
+</body>
+</html>
